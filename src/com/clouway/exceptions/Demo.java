@@ -12,5 +12,7 @@ public class Demo {
         System.out.print("Second number: ");
         String b = sc.nextLine();
         sumator.sum(a,b);
+        System.out.print("Enter a number in the range of [0,10]!");
+
     }
 }
