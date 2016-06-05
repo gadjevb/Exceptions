@@ -34,7 +34,7 @@ public class Sumator {
             }
         }
         if(flag == true && check == true){
-            System.out.print("The sum is: " + (numberA + numberB));
+            System.out.print("The sum is: " + (numberA + numberB) + "\n");
         }else if(flag == false && check == true){
             System.out.print("The value you entered surpasses the integer range of -2,147,483,648 to 2,147,483,647 or you have entered an empty line!");
         }
