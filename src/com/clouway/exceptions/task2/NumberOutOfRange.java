@@ -1,4 +1,4 @@
-package com.clouway.exceptions;
+package com.clouway.exceptions.task2;
 
 public class NumberOutOfRange extends Exception { // Exception that's thrown when the input number is not in the defined range
 
