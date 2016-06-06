@@ -20,7 +20,7 @@ public class Demo {
         try{
             check.validationTest(sc.nextInt());
         }catch (NumberOutOfRange ex){
-            System.out.println(ex.getMessage());
+            System.err.println(ex.getMessage());
         }
         System.out.println("Welcome to the third task! John's mother send him to the shop, she gave him a list of FIVE stuff he needs to buy, but he lost it. \n" + "Please help him recover it by entering the FIVE purchases he need to make!");
         try{
@@ -58,6 +58,11 @@ public class Demo {
             list.add(3);
         }catch(ListOutOfSpace ex){
             ex.getMessage();
+        }
+        try{
+            list.add(9);
+        }catch(ListOutOfSpace ex){
+            System.err.println(ex.getMessage());
         }
         list.printAllElements();
         System.out.print("You have completed the final third task in the Exception chapter, the Demo will now END!");

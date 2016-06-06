@@ -1,6 +1,6 @@
 package com.clouway.exceptions;
 
-public class ListOutOfSpace extends Exception {
+public class ListOutOfSpace extends Exception { // Exception that's thrown when the list is full and there is no more space
     public ListOutOfSpace(){
         super();
     }

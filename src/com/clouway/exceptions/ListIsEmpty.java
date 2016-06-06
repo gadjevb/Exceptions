@@ -1,6 +1,6 @@
 package com.clouway.exceptions;
 
-public class ListIsEmpty extends Exception{
+public class ListIsEmpty extends Exception{ // Exceptions that's thrown when the list is empty
     public ListIsEmpty(){
         super();
     }
