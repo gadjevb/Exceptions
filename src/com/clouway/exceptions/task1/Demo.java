@@ -13,7 +13,7 @@ public class Demo {
         String b = sc.nextLine();
         try {
             System.out.print(sumator.sum(a,b));
-        } catch (NumberFormatException ex) {
+        } catch (IncorrectInputException ex) {
             System.out.print("Invalid number input or input is out of Integer range!");
         }
     }
